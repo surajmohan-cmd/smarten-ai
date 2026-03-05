@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmarTen AI</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+<h1>SmarTen AI</h1>
+<p class="tagline">Smart AI tools for everyday problems — Only ₹10</p>
+</header>
+
+<section class="tools">
+
+<div class="tool">
+<h3>WhatsApp Reply Generator</h3>
+<p>Generate perfect replies instantly.</p>
+<button onclick="openTool('reply')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Love Message Generator</h3>
+<p>Create romantic messages.</p>
+<button onclick="openTool('love')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Apology Message</h3>
+<p>Write sincere apologies.</p>
+<button onclick="openTool('apology')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Birthday Wish Generator</h3>
+<p>Create birthday wishes.</p>
+<button onclick="openTool('birthday')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Instagram Caption Generator</h3>
+<p>Generate captions for photos.</p>
+<button onclick="openTool('caption')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Bio Generator</h3>
+<p>Create social media bios.</p>
+<button onclick="openTool('bio')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Resume Summary</h3>
+<p>Generate resume introduction.</p>
+<button onclick="openTool('resume')">Use Tool (₹10)</button>
+</div>
+
+<div class="tool">
+<h3>Leave Application</h3>
+<p>Create leave letters.</p>
+<button onclick="openTool('leave')">Use Tool (₹10)</button>
+</div>
+
+</section>
+
+<section class="generator" id="generator">
+<h2 id="toolTitle">AI Tool</h2>
+
+<textarea id="userInput" placeholder="Enter your text here..."></textarea>
+
+<button onclick="generate()">Generate</button>
+
+<div class="result" id="result"></div>
+
+</section>
+
+<footer>
+<p>SmarTen AI — AI tools for everyone for just ₹10</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
