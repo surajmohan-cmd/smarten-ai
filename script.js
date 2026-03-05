@@ -18,3 +18,8 @@ document.getElementById("toolTitle").innerText = title;
 document.getElementById("generator").scrollIntoView({behavior:"smooth"});
 
 }
+function copyResult(){
+let text = document.getElementById("result").innerText;
+navigator.clipboard.writeText(text);
+alert("Copied!");
+}
